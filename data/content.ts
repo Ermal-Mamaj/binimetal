@@ -196,15 +196,15 @@ export const projectsData = {
   all: [
     {
       id: "project1",
-      title: "Ndërtesë Komerciale",
-      description: "Fabrikim dhe instalim i strukturës metalike për një ndërtesë komerciale me dizajn modern.",
+      title: "Stadium Futbolli",
+      description: "Realizimi i tribunave të stadiumit të futbollit, me fokus në komoditetin e spektatorëve,"+
+      " sigurinë dhe estetikën moderne. Projekti garanton infrastrukturë të qëndrueshme dhe përvojë optimale për publikun sportdashës.",
       location: "Prishtinë, Kosovë | Klient: ABC Construction",
-      category: "Komerciale",
+      category: "Infrastrukturë Sportive ",
       images: [
-        { src: "/projects/project1-frame1.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 1" },
-        { src: "/projects/project1-frame2.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 2" },
-        { src: "/projects/project1-frame3.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 3" },
-        { src: "/projects/project1-frame4.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 4" },
+        { src: "/project2-stadiumi1.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 1" },
+        { src: "/project2-stadiumi2.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 2" },
+        { src: "/stadium-structure.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 3" },
       ],
     },
     {
