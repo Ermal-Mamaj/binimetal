@@ -1,0 +1,90 @@
+/* Custom styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.hover-lift {
+  transition: transform 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+}
+
+/* Dots pattern background */
+.bg-dots-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.1' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Backdrop blur support */
+@supports (backdrop-filter: blur(4px)) {
+  .backdrop-blur {
+    backdrop-filter: blur(4px);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Project carousel transitions */
+.project-carousel img {
+  transition: transform 0.7s ease;
+}
+
+.project-carousel .prev-btn,
+.project-carousel .next-btn {
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+/* Fix for mobile menu */
+body.overflow-hidden {
+  overflow: hidden;
+}
+
+/* Projects page specific styles */
+.header-bg {
+  background-color: #1e40af;
+  background-image: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+}
+
+.category-filter {
+  transition: all 0.3s ease;
+}
+
+.category-filter.active {
+  background-color: #2563eb;
+  color: white;
+}
+
+.project-card {
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-badge {
+  background-color: #2563eb;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 10;
+}
