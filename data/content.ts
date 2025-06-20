@@ -20,10 +20,8 @@ export const siteContent = {
   about: {
     title: "Rreth Bini Metal - Ekspertë në Konstruksione Metalike", // Updated for SEO
     paragraphs: [
-      "Megjithëse zyrtarisht e themeluar në vitin 2008, Bini Metal buron nga një traditë familjare me mbi 50 vite përvojë në përpunimin dhe ndërtimin e strukturave metalike. Kjo trashëgimi e pasur profesionale është themeli mbi të cilin është ndërtuar kompania jonë moderne.",
-      "Bini Metal është vendosur si një lider në industrinë e ndërtimit metalik, duke ofruar zgjidhje të fabrikimit dhe instalimit të standardeve të larta për projekte komerciale, industriale dhe publike. Ne jemi specialistë në <strong>konstruksione metalike</strong>, <strong>çati çeliku</strong>, <strong>ura metalike</strong> dhe <strong>depo industriale</strong>.",
-      "Ekipi ynë i profesionistëve të kualifikuar kombinon ekspertizën teknike me zgjidhje kreative për të ofruar rezultate të jashtëzakonshme që i përgjigjen nevojave specifike të klientëve tanë dhe shpesh i tejkalojnë ato. Përvoja jonë si <strong>kompani ndërtimi metalik</strong> garanton cilësi.",
-      "Në Bini Metal, ne jemi të përkushtuar ndaj cilësisë, sigurisë dhe kënaqësisë së klientit. Përdorim vetëm materiale të certifikuara dhe teknologji të avancuar për të siguruar që çdo projekt të realizohet sipas standardeve më të larta ndërkombëtare në <strong>Prishtinë, Kosovë</strong> dhe më gjerë.",
+      "Megjithëse zyrtarisht e themeluar në vitin 2008, Bini Metal buron nga një traditë familjare me mbi 50 vite përvojë në përpunimin dhe ndërtimin e strukturave metalike. Kjo trashëgimi e pasur profesionale është themeli mbi të cilin është ndërtuar kompania jonë moderne, duke na vendosur si lider në industrinë e ndërtimit metalik. Ne ofrojmë zgjidhje të fabrikimit dhe instalimit të standardeve të larta për projekte komerciale, industriale dhe publike, duke u specializuar në <strong>konstruksione metalike</strong>, <strong>çati çeliku</strong>, <strong>ura metalike</strong> dhe <strong>depo industriale</strong>.",
+      "Ekipi ynë i profesionistëve të kualifikuar kombinon ekspertizën teknike me zgjidhje kreative për të ofruar rezultate të jashtëzakonshme që i përgjigjen nevojave specifike të klientëve tanë dhe shpesh i tejkalojnë ato. Si një <strong>kompani ndërtimi metalik</strong> e besueshme, ne jemi të përkushtuar ndaj cilësisë, sigurisë dhe kënaqësisë së klientit. Përdorim vetëm materiale të certifikuara dhe teknologji të avancuar për të siguruar që çdo projekt të realizohet sipas standardeve më të larta ndërkombëtare në <strong>Prishtinë, Kosovë</strong> dhe më gjerë.",
     ],
     stats: [
       { value: 15, label: "Vite Eksperiencë", suffix: "+" },
@@ -146,7 +144,8 @@ export const projectsData = {
     {
       id: "project1",
       title: "Stadium Futbolli me Konstruksion Metalik", // Updated for SEO
-      description: "Realizimi i tribunave të stadiumit të futbollit, me fokus në komoditetin e spektatorëve, sigurinë dhe estetikën moderne. Projekti garanton infrastrukturë të qëndrueshme dhe përvojë optimale për publikun sportdashës.",
+      description:
+        "Realizimi i tribunave të stadiumit të futbollit, me fokus në komoditetin e spektatorëve, sigurinë dhe estetikën moderne. Projekti garanton infrastrukturë të qëndrueshme dhe përvojë optimale për publikun sportdashës.",
       location: "Prishtinë, Kosovë | Klient: ABC Construction",
       category: "Infrastrukturë Sportive",
       images: [
@@ -198,7 +197,8 @@ export const projectsData = {
     {
       id: "project1",
       title: "Stadium Futbolli me Konstruksion Metalik", // Updated for SEO
-      description: "Realizimi i tribunave të stadiumit të futbollit, me fokus në komoditetin e spektatorëve, sigurinë dhe estetikën moderne. Projekti garanton infrastrukturë të qëndrueshme dhe përvojë optimale për publikun sportdashës.",
+      description:
+        "Realizimi i tribunave të stadiumit të futbollit, me fokus në komoditetin e spektatorëve, sigurinë dhe estetikën moderne. Projekti garanton infrastrukturë të qëndrueshme dhe përvojë optimale për publikun sportdashës.",
       location: "Prishtinë, Kosovë | Klient: ABC Construction",
       category: "Infrastrukturë Sportive",
       images: [
