@@ -15,6 +15,8 @@ export function AnimatedStat({ value, label, suffix = "", duration = 2000 }: Ani
   const [hasAnimated, setHasAnimated] = useState(false)
 
   useEffect(() => {
+    const currentCountRef = countRef.current // Capture the current ref value
+
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting && !hasAnimated) {
@@ -39,13 +41,15 @@ export function AnimatedStat({ value, label, suffix = "", duration = 2000 }: Ani
       { threshold: 0.1 },
     )
 
-    if (countRef.current) {
-      observer.observe(countRef.current)
+    if (currentCountRef) {
+      // Use the captured value
+      observer.observe(currentCountRef)
     }
 
     return () => {
-      if (countRef.current) {
-        observer.unobserve(countRef.current)
+      if (currentCountRef) {
+        // Use the captured value in cleanup
+        observer.unobserve(currentCountRef)
       }
     }
   }, [value, duration, hasAnimated])
