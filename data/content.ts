@@ -150,7 +150,6 @@ export const projectsData = {
       images: [
         { src: "/project2-stadium1.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 1" },
         { src: "/project2-stadium2.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 2" },
-        { src: "/stadium-structure.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 3" },
       ],
     },
     {
@@ -186,8 +185,8 @@ export const projectsData = {
       location: "Prizren, Kosovë | Klient: Komuna e Prizrenit",
       category: "Infrastrukturë",
       images: [
-        { src: "/konstruksioni1.jpeg", alt: "Ura moderne këmbësorësh me hark" },
-        { src: "/konstruksioni2.jpeg", alt: "Detaj i strukturës metalike të urës" },
+        { src: "/konstruksion1.jpeg", alt: "Ura moderne këmbësorësh me hark" },
+        { src: "/konstruksion2.jpeg", alt: "Detaj i strukturës metalike të urës" },
       ],
     },
   ],
