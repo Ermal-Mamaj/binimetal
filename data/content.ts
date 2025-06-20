@@ -13,7 +13,7 @@ export const siteContent = {
     primaryButton: "Kërko Ofertë",
     secondaryButton: "Shiko Projektet Tona",
     // NEW: Add background image for hero section
-    backgroundImage: "/kamion.jpeg", // Placeholder image path
+    backgroundImage: "projects/kamion.jpeg", // Placeholder image path
   },
 
   // ABOUT SECTION
@@ -148,9 +148,9 @@ export const projectsData = {
       location: "Prishtinë, Kosovë | Klient: ABC Construction",
       category: "Infrastrukturë Sportive ",
       images: [
-        { src: "/project2-stadium1.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 1" },
-        { src: "/project2-stadium2.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 2" },
-        { src: "/stadium-structure.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 3" },
+        { src: "projects/project2-stadium1.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 1" },
+        { src: "projects/project2-stadium2.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 2" },
+        { src: "projects/stadium-structure.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 3" },
       ],
     },
     {
@@ -380,7 +380,7 @@ export const companyInfo = {
   name: "Bini Metal",
   logo: "/logo.png",
   // NEW: Add about section image
-  aboutImage: "/kamion2.jpeg", // Placeholder image path
+  aboutImage: "projects/kamion2.jpeg", // Placeholder image path
   address: "Suharek/Mushtisht/Rruga Xhele Esati",
   phone: "+383 49 125 191",
   email: "binimetal.shpk@gmail.com",
