@@ -8,27 +8,23 @@
 export const siteContent = {
   // HERO SECTION
   hero: {
-    title: "Ekselencë në Ndërtimin Metalik",
-    subtitle: "Ofrojmë zgjidhje cilësore të fabrikimit dhe ndërtimit metalik për më shumë se 15 vjet",
+    title: "Kompani për Konstruksione Metalike në Kosovë", // Updated for SEO
+    subtitle:
+      "Bini Metal: Ekselencë në Fabrikimin dhe Ndërtimin e Çelikut, Çative dhe Depove Industriale me mbi 15 vite përvojë.", // Updated for SEO
     primaryButton: "Kërko Ofertë",
     secondaryButton: "Shiko Projektet Tona",
-    // NEW: Add background image for hero section
-    backgroundImage: "/kamion.jpeg", // Placeholder image path
+    backgroundImage: "/images/hero-background.png", // Placeholder image path
   },
 
   // ABOUT SECTION
   about: {
-    title: "Rreth Bini Metal",
+    title: "Rreth Bini Metal - Ekspertë në Konstruksione Metalike", // Updated for SEO
     paragraphs: [
-      
-  "Megjithëse zyrtarisht e themeluar në vitin 2008, Bini Metal buron nga një traditë familjare me mbi 50 vite përvojë në përpunimin dhe ndërtimin e strukturave metalike. Kjo trashëgimi e pasur profesionale është themeli mbi të cilin është ndërtuar kompania jonë moderne.",
-  
-  "Bini Metal është vendosur si një lider në industrinë e ndërtimit metalik, duke ofruar zgjidhje të fabrikimit dhe instalimit të standardeve të larta për projekte komerciale, industriale dhe publike.",
-
-  "Ekipi ynë i profesionistëve të kualifikuar kombinon ekspertizën teknike me zgjidhje kreative për të ofruar rezultate të jashtëzakonshme që i përgjigjen nevojave specifike të klientëve tanë dhe shpesh i tejkalojnë ato.",
-
-  "Në Bini Metal, ne jemi të përkushtuar ndaj cilësisë, sigurisë dhe kënaqësisë së klientit. Përdorim vetëm materiale të certifikuara dhe teknologji të avancuar për të siguruar që çdo projekt të realizohet sipas standardeve më të larta ndërkombëtare."
-  ],
+      "Megjithëse zyrtarisht e themeluar në vitin 2008, Bini Metal buron nga një traditë familjare me mbi 50 vite përvojë në përpunimin dhe ndërtimin e strukturave metalike. Kjo trashëgimi e pasur profesionale është themeli mbi të cilin është ndërtuar kompania jonë moderne.",
+      "Bini Metal është vendosur si një lider në industrinë e ndërtimit metalik, duke ofruar zgjidhje të fabrikimit dhe instalimit të standardeve të larta për projekte komerciale, industriale dhe publike. Ne jemi specialistë në <strong>konstruksione metalike</strong>, <strong>çati çeliku</strong>, <strong>ura metalike</strong> dhe <strong>depo industriale</strong>.",
+      "Ekipi ynë i profesionistëve të kualifikuar kombinon ekspertizën teknike me zgjidhje kreative për të ofruar rezultate të jashtëzakonshme që i përgjigjen nevojave specifike të klientëve tanë dhe shpesh i tejkalojnë ato. Përvoja jonë si <strong>kompani ndërtimi metalik</strong> garanton cilësi.",
+      "Në Bini Metal, ne jemi të përkushtuar ndaj cilësisë, sigurisë dhe kënaqësisë së klientit. Përdorim vetëm materiale të certifikuara dhe teknologji të avancuar për të siguruar që çdo projekt të realizohet sipas standardeve më të larta ndërkombëtare në <strong>Prishtinë, Kosovë</strong> dhe më gjerë.",
+    ],
     stats: [
       { value: 15, label: "Vite Eksperiencë", suffix: "+" },
       { value: 500, label: "Projekte të Përfunduara", suffix: "+" },
@@ -38,8 +34,9 @@ export const siteContent = {
 
   // SERVICES SECTION
   services: {
-    title: "Shërbimet Tona",
-    subtitle: "Ne ofrojmë një gamë të gjerë shërbimesh të ndërtimit dhe fabrikimit metalik",
+    title: "Shërbimet Tona Kryesore të Ndërtimit Metalik", // Updated for SEO
+    subtitle:
+      "Ne ofrojmë një gamë të gjerë shërbimesh të ndërtimit dhe fabrikimit metalik, duke përfshirë <strong>çati çeliku</strong>, <strong>ura metalike</strong> dhe <strong>depo industriale</strong>.", // Updated for SEO
     items: [
       {
         title: "Fabrikim i Çelikut Strukturor",
@@ -70,15 +67,16 @@ export const siteContent = {
 
   // PROJECTS SECTION
   projects: {
-    title: "Projektet Tona",
-    subtitle: "Shikoni disa nga projektet tona të fundit të ndërtimit dhe fabrikimit metalik",
+    title: "Projektet Tona të Konstruksioneve Metalike", // Updated for SEO
+    subtitle: "Shikoni disa nga projektet tona të fundit të ndërtimit dhe fabrikimit metalik në Kosovë.", // Updated for SEO
     viewAllButton: "Shiko Të Gjitha Projektet",
   },
 
   // TESTIMONIALS SECTION
   testimonials: {
-    title: "Çfarë Thonë Klientët Tanë",
-    subtitle: "Dëgjoni nga disa prej klientëve tanë të kënaqur rreth përvojës së tyre të punës me Bini Metal",
+    title: "Çfarë Thonë Klientët Tanë për Bini Metal", // Updated for SEO
+    subtitle:
+      "Dëgjoni nga disa prej klientëve tanë të kënaqur rreth përvojës së tyre të punës me Bini Metal, një <strong>kompani ndërtimi metalik</strong> e besueshme.", // Updated for SEO
     items: [
       {
         name: "Arben Krasniqi",
@@ -103,9 +101,9 @@ export const siteContent = {
 
   // CONTACT SECTION
   contact: {
-    title: "Na Kontaktoni",
+    title: "Na Kontaktoni - Kompani Ndërtimi Metalik në Kosovë", // Updated for SEO
     subtitle:
-      "Lidhuni me ne për të diskutuar nevojat tuaja për ndërtim dhe fabrikim metalik. Ne jemi këtu për t'ju ndihmuar të realizoni projektin tuaj.",
+      "Lidhuni me ne për të diskutuar nevojat tuaja për <strong>konstruksione metalike</strong>, <strong>çati çeliku</strong>, <strong>ura metalike</strong> dhe <strong>depo industriale</strong>. Ne jemi këtu për t'ju ndihmuar të realizoni projektin tuaj në <strong>Prishtinë, Kosovë</strong> dhe më gjerë.", // Updated for SEO
     formTitle: "Na Dërgoni një Mesazh",
     formSubtitle: "Plotësoni formularin më poshtë dhe ne do t'ju kontaktojmë sa më shpejt të jetë e mundur.",
     address: "Suharek/Mushtisht/Rruga Xhele Esati",
@@ -122,9 +120,9 @@ export const siteContent = {
 
   // CTA SECTION
   cta: {
-    title: "Gati për të Filluar Projektin Tuaj?",
+    title: "Gati për të Filluar Projektin Tuaj të Konstruksioneve Metalike?", // Updated for SEO
     subtitle:
-      "Na kontaktoni sot për të diskutuar nevojat tuaja për ndërtim dhe fabrikim metalik. Ekipi ynë i ekspertëve është gati t'ju ndihmojë të realizoni vizionin tuaj.",
+      "Na kontaktoni sot për të diskutuar nevojat tuaja për ndërtim dhe fabrikim metalik. Ekipi ynë i ekspertëve është gati t'ju ndihmojë të realizoni vizionin tuaj, qoftë për <strong>çati çeliku</strong>, <strong>ura metalike</strong> apo <strong>depo industriale</strong>.", // Updated for SEO
     primaryButton: "Kërko Ofertë",
     secondaryButton: "Telefono +383 49 125 191",
   },
@@ -147,180 +145,37 @@ export const projectsData = {
   featured: [
     {
       id: "project1",
-      title: "Stadium Futbolli",
-      description: "Realizimi i tribunave të stadiumit të futbollit, me fokus në komoditetin e spektatorëve,"+
-      " sigurinë dhe estetikën moderne. Projekti garanton infrastrukturë të qëndrueshme dhe përvojë optimale për publikun sportdashës.",
+      title: "Ndërtesë Komerciale me Strukturë Metalike", // Updated for SEO
+      description: "Fabrikim dhe instalim i strukturës metalike për një ndërtesë komerciale me dizajn modern.", // Updated for SEO
       location: "Prishtinë, Kosovë | Klient: ABC Construction",
-      category: "Infrastrukturë Sportive ",
+      category: "Komerciale",
       images: [
-        { src: "/project2-stadium1.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 1" },
-        { src: "/project2-stadium2.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 2" },
+        {
+          src: "/projects/project1-frame1.jpeg",
+          alt: "Strukturë metalike për ndërtesë komerciale në Prishtinë - pamje e jashtme",
+        }, // Updated alt
+        { src: "/projects/project1-frame2.jpeg", alt: "Detaje të konstruksionit metalik të ndërtesës komerciale" }, // Updated alt
+        { src: "/projects/project1-frame3.jpeg", alt: "Faza e ndërtimit të strukturës së çelikut për ndërtesë" }, // Updated alt
+        {
+          src: "/projects/project1-frame4.jpeg",
+          alt: "Pamje e përgjithshme e ndërtesës komerciale me kornizë metalike",
+        }, // Updated alt
       ],
     },
     {
       id: "project9",
-      title: "Ndërtimi i Urës",
+      title: "Ndërtimi i Depove Industriale me Çelik", // Updated for SEO
       description:
-        "Fabrikimi dhe ngritja e një ure çeliku, duke reflektuar fazat e ndërtimit dhe zbatimin e zgjidhjeve strukturore moderne.",
+        "Fabrikim dhe ngritje e strukturës së çelikut për një depo të madhe industriale, duke treguar fazat e hershme të ndërtimit të <strong>depo industriale</strong>.", // Updated for SEO
       location: "Suharekë, Kosovë | Klient: Industrial Solutions",
       category: "Industriale",
       images: [
-        { src: "/ura.jpeg", alt: "Kornizë çeliku për depo industriale" },
-        { src: "/ura2.jpeg", alt: "Ngritja e strukturës së depove" },
-      ],
-    },
-    {
-      id: "project13",
-      title: "Ndërtimi i një qatie metalike",
-      description:
-        "Fabrikimi dhe montimi i një çatie metalike të përmasave të mëdha, duke përdorur trarë çeliku për të krijuar një strukturë të fortë dhe të qëndrueshme",
-      location: "Kosovë | Klient: Diverse Industries",
-      category: "Transport",
-      images: [
-        { src: "/qati_inside2.jpeg", alt: "Transport i strukturave piramidale" },
-        { src: "/qati_inside3.jpeg", alt: "Struktura metalike piramidale në kamion" },
-        { src: "/qati2.jpeg", alt: "Struktura metalike piramidale në kamion" },
-      ],
-    },
-    {
-      id: "project15",
-      title: "Ura Moderne Këmbësorësh",
-      description:
-        "Fabrikim dhe ngritje e një strukture çeliku për objekt industrial, me fokus në efikasitet dhe qëndrueshmëri konstruktive.",
-      location: "Prizren, Kosovë | Klient: Komuna e Prizrenit",
-      category: "Infrastrukturë",
-      images: [
-        { src: "/konstruksion1.jpeg", alt: "Ura moderne këmbësorësh me hark" },
-        { src: "/konstruksion2.jpeg", alt: "Detaj i strukturës metalike të urës" },
-      ],
-    },
-  ],
-
-  // ALL PROJECTS (shown on projects page)
-  all: [
-    {
-      id: "project1",
-      title: "Stadium Futbolli",
-      description: "Realizimi i tribunave të stadiumit të futbollit, me fokus në komoditetin e spektatorëve,"+
-      " sigurinë dhe estetikën moderne. Projekti garanton infrastrukturë të qëndrueshme dhe përvojë optimale për publikun sportdashës.",
-      location: "Prishtinë, Kosovë | Klient: ABC Construction",
-      category: "Infrastrukturë Sportive ",
-      images: [
-        { src: "/project2-stadiumi1.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 1" },
-        { src: "/project2-stadiumi2.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 2" },
-        { src: "/stadium-structure.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 3" },
-      ],
-    },
-    {
-      id: "project2",
-      title: "Stadium Sportiv",
-      description: "Dizajn dhe ndërtim i një stadiumi sportiv modern me fasadë të kuqe dhe strukturë metalike.",
-      location: "Prizren, Kosovë | Klient: Komuna e Përmetit",
-      category: "Sportive",
-      images: [
-        { src: "/project2-stadium1.jpeg", alt: "Stadium sportiv me fasadë të kuqe - pamje 1" },
-        { src: "/project2-stadium2.jpeg", alt: "Stadium sportiv me fasadë të kuqe - pamje 2" },
-      ],
-    },
-    {
-      id: "project3",
-      title: "Depo Industriale",
-      description: "Ndërtimi i strukturës metalike për një depo industriale me pamje panoramike nga malet.",
-      location: "Ferizaj, Kosovë | Klient: XYZ Industries",
-      category: "Industriale",
-      images: [
-        { src: "/project3-sunset1.jpeg", alt: "Strukturë metalike për depo industriale - pamje 1" },
-        { src: "/project3-sunset2.jpeg", alt: "Strukturë metalike për depo industriale - pamje 2" },
-      ],
-    },
-    {
-      id: "project4",
-      title: "Qendër Tregtare",
-      description: "Konstruksion metalik për qendër të re tregtare me hapësira të shumta për dyqane.",
-      location: "Gjakovë, Kosovë | Klient: Retail Development Group",
-      category: "Komerciale",
-      images: [{ src: "/metal-tanks-project.jpeg", alt: "Qendër tregtare me strukturë metalike" }],
-    },
-    {
-      id: "project5",
-      title: "Fabrikë Prodhimi",
-      description: "Strukturë metalike për fabrikë të re prodhimi me hapësirë të madhe dhe fleksibilitet.",
-      location: "Pejë, Kosovë | Klient: Manufacturing Solutions",
-      category: "Industriale",
-      images: [{ src: "/metal-framework.jpeg", alt: "Fabrikë prodhimi me strukturë metalike" }],
-    },
-    {
-      id: "project6",
-      title: "Ndërtesë Banimi",
-      description: "Struktura metalike për ndërtesë banimi me dizajn modern dhe efiçencë energjetike.",
-      location: "Mitrovicë, Kosovë | Klient: Urban Living Developers",
-      category: "Banimi",
-      images: [{ src: "/red-facade-building.jpeg", alt: "Ndërtesë banimi me strukturë metalike" }],
-    },
-    {
-      id: "project7",
-      title: "Parking Shumëkatësh",
-      description: "Konstruksion metalik për parking shumëkatësh me kapacitet të madh dhe qëndrueshmëri.",
-      location: "Gjilan, Kosovë | Klient: City Infrastructure",
-      category: "Infrastrukturë",
-      images: [{ src: "/parking-structure.jpeg", alt: "Parking shumëkatësh me strukturë metalike" }],
-    },
-    {
-      id: "project8",
-      title: "Kompleks Sportiv",
-      description: "Struktura metalike për kompleks sportiv me salla të shumëfishta dhe hapësira rekreative.",
-      location: "Prishtinë, Kosovë | Klient: Sports Authority",
-      category: "Sportive",
-      images: [{ src: "/stadium-structure.jpeg", alt: "Kompleks sportiv me strukturë metalike" }],
-    },
-    {
-      id: "project9",
-      title: "Ndërtimi i Depove Industriale",
-      description:
-        "Fabrikim dhe ngritje e strukturës së çelikut për një depo të madhe industriale, duke treguar fazat e hershme të ndërtimit.",
-      location: "Suharekë, Kosovë | Klient: Industrial Solutions",
-      category: "Industriale",
-      images: [
-        { src: "/industrial-warehouse-frame-1.jpeg", alt: "Kornizë çeliku për depo industriale" },
-        { src: "/industrial-warehouse-frame-2.jpeg", alt: "Ngritja e strukturës së depove" },
-        { src: "/industrial-warehouse-frame-3.jpeg", alt: "Pamje e gjerë e ndërtimit të depove" },
-      ],
-    },
-    {
-      id: "project10",
-      title: "Tendë Karburanti",
-      description:
-        "Fabrikim dhe instalim i strukturës metalike për një tendë karburanti, duke siguruar mbulim të qëndrueshëm dhe funksional.",
-      location: "Fushë Kosovë, Kosovë | Klient: Petrol Company",
-      category: "Komerciale",
-      images: [
-        { src: "/fuel-station-canopy-1.jpeg", alt: "Strukturë metalike e tendës së karburantit" },
-        { src: "/fuel-station-canopy-2.jpeg", alt: "Ndërtimi i tendës së karburantit" },
-      ],
-    },
-    {
-      id: "project11",
-      title: "Rezervuarë të Mëdhenj Industrialë",
-      description:
-        "Fabrikim dhe transport i rezervuarëve të mëdhenj industrialë, të përdorur për ruajtjen e lëngjeve ose materialeve të ndryshme.",
-      location: "Gjilan, Kosovë | Klient: Chemical Processing Inc.",
-      category: "Industriale",
-      images: [
-        { src: "/industrial-tank-fabrication-1.jpeg", alt: "Fabrikimi i rezervuarit industrial" },
-        { src: "/industrial-tank-transport-1.jpeg", alt: "Transporti i rezervuarit industrial" },
-        { src: "/industrial-tank-components-1.jpeg", alt: "Komponentë rezervuari industrial në tokë" },
-      ],
-    },
-    {
-      id: "project12",
-      title: "Logjistika dhe Transporti",
-      description: "Transporti i sigurt dhe efikas i materialeve dhe strukturave metalike në vendndodhjet e projektit.",
-      location: "Gjithë Kosova | Klient: Bini Metal",
-      category: "Logjistika",
-      images: [
-        { src: "/material-transport-1.jpeg", alt: "Kamion me materiale metalike" },
-        { src: "/material-transport-2.jpeg", alt: "Transport i tubave metalikë" },
-        { src: "/material-transport-3.jpeg", alt: "Kamionë me struktura çeliku" },
+        { src: "/projects/industrial-warehouse-frame-1.jpeg", alt: "Kornizë çeliku për depo industriale në Suharekë" }, // Updated alt
+        {
+          src: "/projects/industrial-warehouse-frame-2.jpeg",
+          alt: "Ngritja e strukturës së çelikut për depo të madhe",
+        }, // Updated alt
+        { src: "/projects/industrial-warehouse-frame-3.jpeg", alt: "Pamje e gjerë e ndërtimit të depove industriale" }, // Updated alt
       ],
     },
     {
@@ -331,36 +186,208 @@ export const projectsData = {
       location: "Kosovë | Klient: Diverse Industries",
       category: "Transport",
       images: [
-        { src: "/specialized-structures-transport-1.jpeg", alt: "Transport i strukturave piramidale" },
-        { src: "/specialized-structures-transport-2.jpeg", alt: "Struktura metalike piramidale në kamion" },
+        {
+          src: "/projects/specialized-structures-transport-1.jpeg",
+          alt: "Transport i strukturave piramidale metalike",
+        }, // Updated alt
+        {
+          src: "/projects/specialized-structures-transport-2.jpeg",
+          alt: "Struktura metalike piramidale e ngarkuar në kamion",
+        }, // Updated alt
+      ],
+    },
+    {
+      id: "project15",
+      title: "Ura Moderne Këmbësorësh me Hark Metalik", // Updated for SEO
+      description:
+        "Dizajn, fabrikim dhe instalim i një ure moderne këmbësorësh me hark metalik, duke përmirësuar lidhjen dhe estetikën urbane në Prizren.", // Updated for SEO
+      location: "Prizren, Kosovë | Klient: Komuna e Prizrenit",
+      category: "Infrastrukturë",
+      images: [
+        { src: "/projects/modern-bridge-1.jpeg", alt: "Ura moderne këmbësorësh me hark metalik në Prizren" }, // Updated alt
+        { src: "/projects/modern-bridge-2.jpeg", alt: "Detaj i strukturës metalike të urës këmbësorësh" }, // Updated alt
+      ],
+    },
+  ],
+
+  // ALL PROJECTS (shown on projects page)
+  all: [
+    {
+      id: "project1",
+      title: "Stadium Futbolli me Konstruksion Metalik", // Updated for SEO
+      description:
+        "Realizimi i tribunave të stadiumit të futbollit, me fokus në komoditetin e spektatorëve, sigurinë dhe estetikën moderne. Projekti garanton infrastrukturë të qëndrueshme dhe përvojë optimale për publikun sportdashës.",
+      location: "Prishtinë, Kosovë | Klient: ABC Construction",
+      category: "Infrastrukturë Sportive",
+      images: [
+        { src: "/projects/project2-stadium1.jpeg", alt: "Tribunat e stadiumit të futbollit me strukturë metalike" }, // Updated alt
+        { src: "/projects/project2-stadium2.jpeg", alt: "Pamje e brendshme e stadiumit me konstruksion çeliku" }, // Updated alt
+        { src: "/projects/stadium-structure.jpeg", alt: "Strukturë e përgjithshme e stadiumit sportiv" }, // Updated alt
+      ],
+    },
+    {
+      id: "project2",
+      title: "Stadium Sportiv me Fasadë të Kuqe", // Updated for SEO
+      description: "Dizajn dhe ndërtim i një stadiumi sportiv modern me fasadë të kuqe dhe strukturë metalike.",
+      location: "Prizren, Kosovë | Klient: Komuna e Përmetit",
+      category: "Sportive",
+      images: [
+        { src: "/projects/project2-stadium1.jpeg", alt: "Stadium sportiv me fasadë të kuqe - pamje e jashtme" }, // Updated alt
+        { src: "/projects/project2-stadium2.jpeg", alt: "Detaje të fasadës metalike të kuqe të stadiumit" }, // Updated alt
+      ],
+    },
+    {
+      id: "project3",
+      title: "Depo Industriale me Strukturë Metalike", // Updated for SEO
+      description: "Ndërtimi i strukturës metalike për një depo industriale me pamje panoramike nga malet.",
+      location: "Ferizaj, Kosovë | Klient: XYZ Industries",
+      category: "Industriale",
+      images: [
+        { src: "/projects/project3-sunset1.jpeg", alt: "Strukturë metalike për depo industriale në perëndim dielli" }, // Updated alt
+        { src: "/projects/project3-sunset2.jpeg", alt: "Pamje e brendshme e depove industriale me kornizë çeliku" }, // Updated alt
+      ],
+    },
+    {
+      id: "project4",
+      title: "Qendër Tregtare me Konstruksion Çeliku", // Updated for SEO
+      description: "Konstruksion metalik për qendër të re tregtare me hapësira të shumta për dyqane në Gjakovë.", // Updated for SEO
+      location: "Gjakovë, Kosovë | Klient: Retail Development Group",
+      category: "Komerciale",
+      images: [{ src: "/projects/metal-tanks-project.jpeg", alt: "Qendër tregtare me strukturë metalike dhe tanke" }], // Updated alt
+    },
+    {
+      id: "project5",
+      title: "Fabrikë Prodhimi me Strukturë Çeliku", // Updated for SEO
+      description: "Strukturë metalike për fabrikë të re prodhimi me hapësirë të madhe dhe fleksibilitet në Pejë.", // Updated for SEO
+      location: "Pejë, Kosovë | Klient: Manufacturing Solutions",
+      category: "Industriale",
+      images: [{ src: "/projects/metal-framework.jpeg", alt: "Fabrikë prodhimi me strukturë metalike të hapur" }], // Updated alt
+    },
+    {
+      id: "project6",
+      title: "Ndërtesë Banimi me Fasadë Metalike", // Updated for SEO
+      description: "Struktura metalike për ndërtesë banimi me dizajn modern dhe efiçencë energjetike në Mitrovicë.", // Updated for SEO
+      location: "Mitrovicë, Kosovë | Klient: Urban Living Developers",
+      category: "Banimi",
+      images: [{ src: "/projects/red-facade-building.jpeg", alt: "Ndërtesë banimi me fasadë metalike të kuqe" }], // Updated alt
+    },
+    {
+      id: "project7",
+      title: "Parking Shumëkatësh me Konstruksion Metalik", // Updated for SEO
+      description: "Konstruksion metalik për parking shumëkatësh me kapacitet të madh dhe qëndrueshmëri në Gjilan.", // Updated for SEO
+      location: "Gjilan, Kosovë | Klient: City Infrastructure",
+      category: "Infrastrukturë",
+      images: [{ src: "/projects/parking-structure.jpeg", alt: "Parking shumëkatësh me strukturë metalike" }], // Updated alt
+    },
+    {
+      id: "project8",
+      title: "Kompleks Sportiv me Strukturë Çeliku", // Updated for SEO
+      description:
+        "Struktura metalike për kompleks sportiv me salla të shumëfishta dhe hapësira rekreative në Prishtinë.", // Updated for SEO
+      location: "Prishtinë, Kosovë | Klient: Sports Authority",
+      category: "Sportive",
+      images: [{ src: "/projects/stadium-structure.jpeg", alt: "Kompleks sportiv me strukturë metalike të hapur" }], // Updated alt
+    },
+    {
+      id: "project9",
+      title: "Ndërtimi i Depove Industriale me Çelik", // Updated for SEO
+      description:
+        "Fabrikim dhe ngritje e strukturës së çelikut për një depo të madhe industriale, duke treguar fazat e hershme të ndërtimit të <strong>depo industriale</strong>.", // Updated for SEO
+      location: "Suharekë, Kosovë | Klient: Industrial Solutions",
+      category: "Industriale",
+      images: [
+        { src: "/projects/industrial-warehouse-frame-1.jpeg", alt: "Kornizë çeliku për depo industriale në Suharekë" }, // Updated alt
+        {
+          src: "/projects/industrial-warehouse-frame-2.jpeg",
+          alt: "Ngritja e strukturës së çelikut për depo të madhe",
+        }, // Updated alt
+        { src: "/projects/industrial-warehouse-frame-3.jpeg", alt: "Pamje e gjerë e ndërtimit të depove industriale" }, // Updated alt
+      ],
+    },
+    {
+      id: "project10",
+      title: "Tendë Karburanti me Strukturë Metalike", // Updated for SEO
+      description:
+        "Fabrikim dhe instalim i strukturës metalike për një tendë karburanti, duke siguruar mbulim të qëndrueshëm dhe funksional.",
+      location: "Fushë Kosovë, Kosovë | Klient: Petrol Company",
+      category: "Komerciale",
+      images: [
+        { src: "/projects/fuel-station-canopy-1.jpeg", alt: "Strukturë metalike e tendës së karburantit" }, // Updated alt
+        { src: "/projects/fuel-station-canopy-2.jpeg", alt: "Ndërtimi i tendës së karburantit me çelik" }, // Updated alt
+      ],
+    },
+    {
+      id: "project11",
+      title: "Rezervuarë të Mëdhenj Industrialë",
+      description:
+        "Fabrikim dhe transport i rezervuarëve të mëdhenj industrialë, të përdorur për ruajtjen e lëngjeve ose materialeve të ndryshme.",
+      location: "Gjilan, Kosovë | Klient: Chemical Processing Inc.",
+      category: "Industriale",
+      images: [
+        { src: "/projects/industrial-tank-fabrication-1.jpeg", alt: "Fabrikimi i rezervuarit industrial të madh" }, // Updated alt
+        { src: "/projects/industrial-tank-transport-1.jpeg", alt: "Transporti i rezervuarit industrial me kamion" }, // Updated alt
+        { src: "/projects/industrial-tank-components-1.jpeg", alt: "Komponentë rezervuari industrial në tokë" }, // Updated alt
+      ],
+    },
+    {
+      id: "project12",
+      title: "Logjistika dhe Transporti i Materialeve Metalike", // Updated for SEO
+      description: "Transporti i sigurt dhe efikas i materialeve dhe strukturave metalike në vendndodhjet e projektit.",
+      location: "Gjithë Kosova | Klient: Bini Metal",
+      category: "Logjistika",
+      images: [
+        { src: "/projects/material-transport-1.jpeg", alt: "Kamion me materiale metalike për ndërtim" }, // Updated alt
+        { src: "/projects/material-transport-2.jpeg", alt: "Transport i tubave metalikë të gjatë" }, // Updated alt
+        { src: "/projects/material-transport-3.jpeg", alt: "Kamionë me struktura çeliku të ngarkuara" }, // Updated alt
+      ],
+    },
+    {
+      id: "project13",
+      title: "Transporti i Strukturave Metalike Speciale",
+      description:
+        "Transporti i strukturave metalike me formë të veçantë, siç janë komponentët e siloseve ose hinkave, duke siguruar dërgesë të sigurt dhe në kohë.",
+      location: "Kosovë | Klient: Diverse Industries",
+      category: "Transport",
+      images: [
+        {
+          src: "/projects/specialized-structures-transport-1.jpeg",
+          alt: "Transport i strukturave piramidale metalike",
+        }, // Updated alt
+        {
+          src: "/projects/specialized-structures-transport-2.jpeg",
+          alt: "Struktura metalike piramidale e ngarkuar në kamion",
+        }, // Updated alt
       ],
     },
     {
       id: "project14",
-      title: "Ndërtimi i Çative dhe Strukturave",
+      title: "Ndërtimi i Çative dhe Strukturave Metalike", // Updated for SEO
       description:
         "Instalimi i strukturave metalike të çatisë dhe elementeve mbështetëse për ndërtesa të ndryshme, duke siguruar qëndrueshmëri dhe siguri.",
       location: "Kosovë | Klient: Klientë të Ndryshëm",
       category: "Çati & Fasada Metalike",
       images: [
-        { src: "/roof-structure-installation-1.jpeg", alt: "Ngritja e trareve metalike të çatisë" },
-        { src: "/roof-structure-installation-2.jpeg", alt: "Instalimi i strukturës së çatisë brenda" },
-        { src: "/roof-structure-installation-3.jpeg", alt: "Ndërtesa me strukturë çati në ndërtim" },
-        { src: "/roof-structure-installation-4.jpeg", alt: "Trare çeliku për çati" },
-        { src: "/roof-structure-installation-5.jpeg", alt: "Pamje e brendshme e strukturës së çatisë" },
-        { src: "/roof-structure-installation-6.jpeg", alt: "Ngritja e trareve të çatisë me vinç" },
+        { src: "/projects/roof-structure-installation-1.jpeg", alt: "Ngritja e trareve metalike të çatisë" }, // Updated alt
+        {
+          src: "/projects/roof-structure-installation-2.jpeg",
+          alt: "Instalimi i strukturës së çatisë brenda ndërtesës",
+        }, // Updated alt
+        { src: "/projects/roof-structure-installation-3.jpeg", alt: "Ndërtesa me strukturë çati në ndërtim" }, // Updated alt
+        { src: "/projects/roof-structure-installation-4.jpeg", alt: "Trare çeliku për çati" }, // Updated alt
+        { src: "/projects/roof-structure-installation-5.jpeg", alt: "Pamje e brendshme e strukturës së çatisë" }, // Updated alt
+        { src: "/projects/roof-structure-installation-6.jpeg", alt: "Ngritja e trareve të çatisë me vinç" }, // Updated alt
       ],
     },
     {
       id: "project15",
-      title: "Ura Moderne Këmbësorësh",
+      title: "Ura Moderne Këmbësorësh me Hark Metalik", // Updated for SEO
       description:
-        "Dizajn, fabrikim dhe instalim i një ure moderne këmbësorësh me hark metalik, duke përmirësuar lidhjen dhe estetikën urbane.",
+        "Dizajn, fabrikim dhe instalim i një ure moderne këmbësorësh me hark metalik, duke përmirësuar lidhjen dhe estetikën urbane në Prizren.", // Updated for SEO
       location: "Prizren, Kosovë | Klient: Komuna e Prizrenit",
       category: "Infrastrukturë",
       images: [
-        { src: "/modern-bridge-1.jpeg", alt: "Ura moderne këmbësorësh me hark" },
-        { src: "/modern-bridge-2.jpeg", alt: "Detaj i strukturës metalike të urës" },
+        { src: "/projects/modern-bridge-1.jpeg", alt: "Ura moderne këmbësorësh me hark metalik në Prizren" }, // Updated alt
+        { src: "/projects/modern-bridge-2.jpeg", alt: "Detaj i strukturës metalike të urës këmbësorësh" }, // Updated alt
       ],
     },
   ],
@@ -376,6 +403,7 @@ export const projectsData = {
     "Logjistika",
     "Transport",
     "Çati & Fasada Metalike",
+    "Infrastrukturë Sportive", // Added based on project1
   ],
 }
 
@@ -383,8 +411,7 @@ export const projectsData = {
 export const companyInfo = {
   name: "Bini Metal",
   logo: "/logo.png",
-  // NEW: Add about section image
-  aboutImage: "/kamion2.jpeg", // Placeholder image path
+  aboutImage: "/images/about-section-image.png", // Placeholder image path
   address: "Suharek/Mushtisht/Rruga Xhele Esati",
   phone: "+383 49 125 191",
   email: "binimetal.shpk@gmail.com",

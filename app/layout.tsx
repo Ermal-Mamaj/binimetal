@@ -8,18 +8,24 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "Bini Metal - Ekselencë në Ndërtimin Metalik",
+    default: "Bini Metal - Konstruksione Metalike në Kosovë | Çati Çeliku, Ura, Depo Industriale",
     template: "%s | Bini Metal",
   },
-  description: "Ofrojmë zgjidhje cilësore të fabrikimit dhe ndërtimit metalik për më shumë se 15 vjet",
+  description: "Bini Metal është lider në ndërtimin e strukturave metalike në Kosovë,"+
+  " duke përfshirë ura çeliku, çati industriale dhe depo moderne. Mbi 50 vite përvojë familjare.",
   keywords: [
-    "ndërtim metalik",
+    "konstruksione metalike",
+    "çati çeliku",
+    "ura metalike",
+    "depo industriale",
+    "kompani ndërtimi metalik",
+    "Prishtinë",
+    "Kosovë",
     "fabrikim çeliku",
     "struktura metalike",
     "çati metalike",
     "fasada metalike",
     "Bini Metal",
-    "Kosovë",
   ],
   authors: [{ name: "Bini Metal" }],
   creator: "Bini Metal",
@@ -34,8 +40,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Bini Metal - Ekselencë në Ndërtimin Metalik",
-    description: "Ofrojmë zgjidhje cilësore të fabrikimit dhe ndërtimit metalik për më shumë se 15 vjet",
+    title: "Bini Metal – Konstruksione Metalike në Kosovë | Çati Çeliku, Ura, Depo Industriale",
+    description: "Bini Metal është lider në ndërtimin e strukturave metalike në Kosovë,"+
+    " duke përfshirë ura çeliku, çati industriale dhe depo moderne. Mbi 50 vite përvojë familjare.",
     url: "https://binimetal.com",
     siteName: "Bini Metal",
     locale: "sq_AL",
@@ -51,8 +58,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bini Metal - Ekselencë në Ndërtimin Metalik",
-    description: "Ofrojmë zgjidhje cilësore të fabrikimit dhe ndërtimit metalik për më shumë se 15 vjet",
+    title: "Bini Metal – Konstruksione Metalike, Çati Çeliku, Ura, Depo Industriale në Kosovë",
+    description: "Bini Metal është lider në ndërtimin e strukturave metalike në Kosovë,"+
+    " duke përfshirë ura çeliku, çati industriale dhe depo moderne. Mbi 50 vite përvojë familjare.",
     images: ["/og-image.jpg"],
   },
   icons: {
