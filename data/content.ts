@@ -13,7 +13,7 @@ export const siteContent = {
     primaryButton: "Kërko Ofertë",
     secondaryButton: "Shiko Projektet Tona",
     // NEW: Add background image for hero section
-    backgroundImage: "/kamion.png", // Placeholder image path
+    backgroundImage: "/kamion.jpeg", // Placeholder image path
   },
 
   // ABOUT SECTION
@@ -148,8 +148,8 @@ export const projectsData = {
       location: "Prishtinë, Kosovë | Klient: ABC Construction",
       category: "Infrastrukturë Sportive ",
       images: [
-        { src: "/project2-stadiumi1.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 1" },
-        { src: "/project2-stadiumi2.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 2" },
+        { src: "/project2-stadium1.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 1" },
+        { src: "/project2-stadium2.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 2" },
         { src: "/stadium-structure.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 3" },
       ],
     },
