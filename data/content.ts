@@ -20,10 +20,15 @@ export const siteContent = {
   about: {
     title: "Rreth Bini Metal",
     paragraphs: [
-      "E themeluar në vitin 2008, Bini Metal është vendosur si lider në industrinë e ndërtimit metalik, duke ofruar shërbime të fabrikimit dhe instalimit të cilësisë së lartë për projekte komerciale dhe industriale.",
-      "Ekipi ynë i profesionistëve të kualifikuar kombinon ekspertizën teknike me zgjidhje kreative të problemeve për të ofruar rezultate të jashtëzakonshme që plotësojnë nevojat specifike të klientëve tanë dhe tejkalojnë pritshmëritë e tyre.",
-      "Në Bini Metal, ne krenohemi me përkushtimin tonë ndaj cilësisë, sigurisë dhe kënaqësisë së klientit. Ne përdorim vetëm materialet më të mira dhe teknikat më të avancuara për të siguruar që çdo projekt që ndërmarrim të përfundojë sipas standardeve më të larta.",
-    ],
+      
+  "Megjithëse zyrtarisht e themeluar në vitin 2008, Bini Metal buron nga një traditë familjare me mbi 50 vite përvojë në përpunimin dhe ndërtimin e strukturave metalike. Kjo trashëgimi e pasur profesionale është themeli mbi të cilin është ndërtuar kompania jonë moderne.",
+  
+  "Bini Metal është vendosur si një lider në industrinë e ndërtimit metalik, duke ofruar zgjidhje të fabrikimit dhe instalimit të standardeve të larta për projekte komerciale, industriale dhe publike.",
+
+  "Ekipi ynë i profesionistëve të kualifikuar kombinon ekspertizën teknike me zgjidhje kreative për të ofruar rezultate të jashtëzakonshme që i përgjigjen nevojave specifike të klientëve tanë dhe shpesh i tejkalojnë ato.",
+
+  "Në Bini Metal, ne jemi të përkushtuar ndaj cilësisë, sigurisë dhe kënaqësisë së klientit. Përdorim vetëm materiale të certifikuara dhe teknologji të avancuar për të siguruar që çdo projekt të realizohet sipas standardeve më të larta ndërkombëtare."
+  ],
     stats: [
       { value: 15, label: "Vite Eksperiencë", suffix: "+" },
       { value: 500, label: "Projekte të Përfunduara", suffix: "+" },
