@@ -47,7 +47,7 @@ export default function Home() {
           <div className="absolute inset-0 z-0">
             <Image
               src={siteContent.hero.backgroundImage || "/placeholder.svg"}
-              alt="Hero background"
+              alt="Konstruksione metalike në Kosovë, Çati Çeliku, Ura, Depo Industriale" // Updated alt text
               fill
               className="object-cover"
               priority // Load this image with high priority
@@ -94,9 +94,7 @@ export default function Home() {
                 <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">{siteContent.about.title}</h2>
                 <div className="mt-8 space-y-6">
                   {siteContent.about.paragraphs.map((paragraph, index) => (
-                    <p key={index} className="text-base md:text-lg">
-                      {paragraph}
-                    </p>
+                    <p key={index} className="text-base md:text-lg" dangerouslySetInnerHTML={{ __html: paragraph }}></p>
                   ))}
                 </div>
                 <div className="mt-10 grid grid-cols-3 gap-8">
@@ -112,7 +110,7 @@ export default function Home() {
                   {/* NEW: Use aboutImage from companyInfo */}
                   <FallbackImage
                     src={companyInfo.aboutImage}
-                    alt="About Bini Metal"
+                    alt="Punëtorë të Bini Metal duke ndërtuar strukturë metalike" // Updated alt text
                     width={400} // Adjust width/height as needed for your image
                     height={400}
                     className="object-cover w-full h-full rounded-lg" // Use object-cover to fill the space
@@ -127,7 +125,10 @@ export default function Home() {
         <section id="services" className="bg-muted py-20 md:py-24 lg:py-28 scroll-mt-20 relative overflow-hidden">
           <div className="absolute inset-0 bg-dots-pattern opacity-5"></div>
           <div className="container px-4 sm:px-6 relative z-10">
-            <SectionHeader title={siteContent.services.title} subtitle={siteContent.services.subtitle} />
+            <SectionHeader
+              title={siteContent.services.title}
+              subtitle={<span dangerouslySetInnerHTML={{ __html: siteContent.services.subtitle }} />}
+            />
 
             <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {siteContent.services.items.map((service, index) => (
@@ -173,7 +174,10 @@ export default function Home() {
         <section className="bg-muted py-20 md:py-24 lg:py-28 relative overflow-hidden">
           <div className="absolute inset-0 bg-dots-pattern opacity-5"></div>
           <div className="container px-4 sm:px-6 relative z-10">
-            <SectionHeader title={siteContent.testimonials.title} subtitle={siteContent.testimonials.subtitle} />
+            <SectionHeader
+              title={siteContent.testimonials.title}
+              subtitle={<span dangerouslySetInnerHTML={{ __html: siteContent.testimonials.subtitle }} />}
+            />
 
             <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {siteContent.testimonials.items.map((testimonial, index) => (
@@ -213,7 +217,10 @@ export default function Home() {
                 <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
                   {siteContent.contact.title}
                 </h2>
-                <p className="mt-6 text-muted-foreground text-lg">{siteContent.contact.subtitle}</p>
+                <p
+                  className="mt-6 text-muted-foreground text-lg"
+                  dangerouslySetInnerHTML={{ __html: siteContent.contact.subtitle }}
+                ></p>
                 <div className="mt-10 space-y-6">
                   <div className="flex items-center gap-4">
                     <div className="rounded-full bg-gray-100 p-4 flex items-center justify-center">
@@ -308,7 +315,10 @@ export default function Home() {
           <div className="absolute inset-0 bg-dots-pattern opacity-5"></div>
           <div className="container text-center px-4 sm:px-6 relative z-10">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">{siteContent.cta.title}</h2>
-            <p className="mt-6 mx-auto max-w-[700px] text-lg">{siteContent.cta.subtitle}</p>
+            <p
+              className="mt-6 mx-auto max-w-[700px] text-lg"
+              dangerouslySetInnerHTML={{ __html: siteContent.cta.subtitle }}
+            ></p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" className="rounded-full px-8 py-6 text-base">
                 {siteContent.cta.primaryButton}
