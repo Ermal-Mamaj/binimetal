@@ -148,9 +148,9 @@ export const projectsData = {
       location: "Prishtinë, Kosovë | Klient: ABC Construction",
       category: "Infrastrukturë Sportive ",
       images: [
-        { src: "/project2-stadium1.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 1" },
-        { src: "/project2-stadium2.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 2" },
-        { src: "/stadium-structure.jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 3" },
+        { src: "/projekt4 (1).jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 1" },
+        { src: "/projekt4 (2).jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 2" },
+        { src: "/projekt5 (1).jpeg", alt: "Strukturë metalike për ndërtesë komerciale - pamje 3" },
       ],
     },
     {
