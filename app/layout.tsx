@@ -60,16 +60,16 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bini Metal – Konstruksione Metalike në Kosovë | Çati Çeliku, Ura, Depo Industriale",
     description:
-      "Bini Metal është lider në ndërtimin e strukturave metalike në Kosovë, duke përfshirë ura çeliku, çati industriale dhe depo moderne. Mbi 50 vite përvojë familjare.",
+      "Bini Metal është lider në ndërtimin e strukturave metalike në Kosovë | Çati Çeliku, Ura, Depo Industriale",
     images: ["/og-image.jpg"],
   },
   icons: {
     icon: [
-      { url: "/logo.png" }, // Changed to directly use logo.png
-      // You can keep these if you want to provide specific sizes,
-      // or remove them if you only want the browser to infer from logo.png
+      { url: "/favicon.ico" },
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/android-chrome-192x192.png", sizes: "192x192", type: "image/png" },
+      { url: "/android-chrome-512x512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
   },
